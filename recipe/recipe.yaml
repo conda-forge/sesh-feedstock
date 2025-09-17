@@ -1,5 +1,5 @@
 context:
-  version: "2.18.0"
+  version: "2.18.1"
 
 package:
   name: sesh
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/joshmedeski/sesh/archive/v${{ version }}.tar.gz
-  sha256: 8aa3ce8ddb9f2ef06b78856a9a6ca44842bd842e8b7d0b412dee8cb76f6cb665
+  sha256: 9d11398455443b8dc90ef2ec8f1038b01913a3f699b60b78e39091403173b8ab
 
 build:
   number: 0
