@@ -1,5 +1,5 @@
 context:
-  version: "2.22.0"
+  version: "2.23.0"
 
 package:
   name: sesh
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/joshmedeski/sesh/archive/v${{ version }}.tar.gz
-  sha256: e983542701b8c7998f046819e00f04a6a57ca5e3db6fa02891cb6ee4f6dd3b52
+  sha256: 827f269d3dc564de13f995d983b4c714dc8937de2308243a55d80a2958169273
 
 build:
-  number: 1
+  number: 0
   skip:
     - win
   script:
